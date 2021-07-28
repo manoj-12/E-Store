@@ -773,6 +773,17 @@ ul li i {
   border-radius: 1%;
 }
 
+.filter-search {
+  position: relative;
+  margin: 0px 5px 0px 0px;
+}
+
+.filter-submit-icons {
+  position: absolute;
+  right: 5px;
+  top: 7px;
+}
+
 .cotegory-name p {
   margin-top: 20px;
   font-weight: bold;
@@ -815,16 +826,10 @@ ul li i {
 }
 
 .accordion-button:focus {
-  z-index: 3;
+  z-index: 0;
   outline: 0;
   -webkit-box-shadow: none !important;
           box-shadow: none !important;
-}
-
-.filter-submitIcon {
-  position: relative;
-  right: 30px;
-  top: 6px;
 }
 
 .brand-name, .totalproduct {
@@ -844,5 +849,18 @@ ul li i {
 
 .form-check-input:checked {
   border: none;
+}
+
+.color-filter {
+  border: 1px solid red;
+  border-radius: 48%;
+  height: 30px;
+  width: 30px;
+  outline: 1px solid teal;
+}
+
+.blue-gray p {
+  padding: 0px;
+  margin: 0px;
 }
 /*# sourceMappingURL=style.css.map */
