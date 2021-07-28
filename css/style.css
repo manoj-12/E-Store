@@ -780,8 +780,8 @@ ul li i {
 
 .filter-submit-icons {
   position: absolute;
-  right: 5px;
-  top: 7px;
+  right: 0;
+  top: 0;
 }
 
 .cotegory-name p {

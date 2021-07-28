@@ -855,9 +855,8 @@ right: 0;
 }
 .filter-submit-icons{
   position: absolute;
-  // border: 1px solid darkred;
-  right: 5px;
-  top: 7px;
+  right: 0;
+  top: 0;
 }
 .cotegory-name p{
   margin-top: 20px;
@@ -904,6 +903,7 @@ font-size: 0.8rem;
 }
 
 .filter-submitIcon{
+  // z-index: 1;
   // position: absolute;
     // right: 30px;
     // top: 6px;
