@@ -1003,5 +1003,86 @@ font-size: 0.8rem;
 .product-row{
   // overflow-y: scroll;
 }
+.prod-list-colum{
+
+  background-color: #f3f5f9;
+}
+.main-body-prodlist{
+  position: relative;
+ 
+}
+
+.view-list-cart{
+  position: absolute;
+  right: -27px;
+  z-index: 1;
+  top: 16px;
+  display: none;
+  color: $mediumdark-red-color;  
+}
+.main-body-prodlist:hover> .prodlist-view-wish-cart .view-list-cart{
+  right: 9px;
+  display: block;
+
+}
+
+.view-list-cart li{
+  list-style: none;
+}
+
+.view-list-cart li i:hover{
+  color: red;
+  transition: color 0.3s ease-in-out;
+}
+
+.view-list-cart li a{
+  text-decoration: none;
+  color:#4b566b;
+}
+.prodlist-img{
+  display: flex;
+  justify-content: center;
+}
+.prodlist-name a{
+  text-decoration: none;
+  font-weight: bold;
+  color: #373f50;
+  color: $mediumdark-red-color;
+  transition: color 0.3s ease-in-out;
+}
+
+.prodlist-price{
+  display: inline-block;
+  font-weight: bold;
+  color: $mediumdark-red-color;
+  transition: color 0.3s ease-in-out;
+  // position: absolute;
+}
+
+.prodlist-ratting{
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  color: $mediumdark-red-color;
+  transition: color 0.3s ease-in-out;
+}
+
+.main-body-prodlist:hover> .prodlist-img img{
+  transform: translatey(3%);
+  // transform-origin: -2% 0%;
+  transition: transform 0.3s ease-in-out;
+}
+
+.main-body-prodlist:hover> .prodlist-price-ratting .prodlist-price{
+  color: $dark-red-color;
+}
+
+.main-body-prodlist:hover> .prodlist-price-ratting .prodlist-ratting{
+  color: $dark-red-color;
+}
+
+.main-body-prodlist:hover> .prodlist-name p a{
+  color: $dark-red-color;
+}
 
 // single page product design end here
