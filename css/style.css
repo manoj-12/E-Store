@@ -36,6 +36,7 @@ input[type="search"]::-webkit-search-results-decoration {
   background-color: white;
   padding-top: 0rem !important;
   padding-bottom: 0rem !important;
+  height: 70px;
 }
 
 .logo {
@@ -56,8 +57,9 @@ input[type="search"]::-webkit-search-results-decoration {
 @media screen and (max-width: 965px) {
   .small-logo {
     display: block;
-    position: relative;
-    top: 5px;
+    position: absolute;
+    top: 0;
+    left: 0;
   }
 }
 
@@ -102,9 +104,23 @@ input[type="search"]::-webkit-search-results-decoration {
   font-size: 20px;
 }
 
+@media screen and (max-width: 965px) {
+  .person-info .wish-list {
+    position: relative;
+    top: -14px;
+  }
+}
+
 .user-icons {
   font-weight: bold;
   font-size: x-large;
+}
+
+@media screen and (max-width: 965px) {
+  .user-icons {
+    position: relative;
+    top: -14px;
+  }
 }
 
 .user-model-box {
@@ -246,8 +262,8 @@ ul li i {
   .cart-detail {
     font-size: small;
     position: relative;
-    left: 18px;
-    top: 6px;
+    left: 21px;
+    top: -5px;
     width: 48px;
   }
 }
@@ -384,7 +400,7 @@ ul li i {
 @media screen and (max-width: 965px) {
   .toggle {
     position: fixed;
-    top: 20px;
+    top: 9px;
     left: 65px;
     display: inline-block;
     width: 33px;
