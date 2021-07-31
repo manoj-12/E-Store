@@ -129,3 +129,11 @@ $('.owl-carousel-1').owlCarousel({
   }
 })
 
+
+
+$(document).ready(function(){
+  $(".filter-icon").click(function(){
+    $(".filter-section").toggle();
+    // $(".main-bodyfilter").toggle();
+  })
+});

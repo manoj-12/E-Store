@@ -875,6 +875,11 @@ right: 0;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   border-radius: 1%;
 }
+
+.main-bodyfilter{
+  position: sticky;
+  top: 80px;
+}
 .filter-search{
   position: relative;
   margin: 0px 5px 0px 0px;  
@@ -1025,9 +1030,12 @@ font-size: 0.8rem;
 
 // single page product design
 
-
-.product-row{
+@media screen and (max-width:965px) {
+  .product-row{
   // overflow-y: scroll;
+  position: relative;
+  // top: -291px;
+}
 }
 .prod-list-colum{
 
@@ -1110,5 +1118,44 @@ font-size: 0.8rem;
 .main-body-prodlist:hover> .prodlist-name p a{
   color: $dark-red-color;
 }
+
+// filter media query start here
+.filter-short-icon{
+  display: none;
+  background-color: #fff;
+  position: fixed;
+  bottom: 0px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+@media screen and (max-width:992px) {
+  .filter-section{
+    display: none;
+    position: sticky;
+    z-index: 1;
+    top: 0px;
+    width: 100%;
+  }
+  
+  .short-section-row{
+    display: none;
+    // position: sticky;
+    // bottom: 10px;
+  }
+  .product-list-main-colum{
+    width: 100%;
+    // position: absolute;
+    // bottom: 10px;
+  }
+  .filter-short-icon{
+    display: block;
+    // color: white;
+  }
+ 
+}
+
+
+
 
 // single page product design end here

@@ -789,6 +789,12 @@ ul li i {
   border-radius: 1%;
 }
 
+.main-bodyfilter {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 80px;
+}
+
 .filter-search {
   position: relative;
   margin: 0px 5px 0px 0px;
@@ -927,6 +933,12 @@ ul li i {
   font-size: 0.8rem;
 }
 
+@media screen and (max-width: 965px) {
+  .product-row {
+    position: relative;
+  }
+}
+
 .prod-list-colum {
   background-color: #f3f5f9;
 }
@@ -1018,5 +1030,34 @@ ul li i {
 
 .main-body-prodlist:hover > .prodlist-name p a {
   color: #fe3437;
+}
+
+.filter-short-icon {
+  display: none;
+  background-color: #fff;
+  position: fixed;
+  bottom: 0px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 992px) {
+  .filter-section {
+    display: none;
+    position: -webkit-sticky;
+    position: sticky;
+    z-index: 1;
+    top: 0px;
+    width: 100%;
+  }
+  .short-section-row {
+    display: none;
+  }
+  .product-list-main-colum {
+    width: 100%;
+  }
+  .filter-short-icon {
+    display: block;
+  }
 }
 /*# sourceMappingURL=style.css.map */
