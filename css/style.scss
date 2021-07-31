@@ -1062,16 +1062,19 @@ font-size: 0.8rem;
 
 .view-list-cart li{
   list-style: none;
+  background-color: #f3f2f2;
+  padding: 5px;
+  margin: 2px;
 }
 
 .view-list-cart li i:hover{
-  color: red;
+  color: $dark-red-color;
   transition: color 0.3s ease-in-out;
 }
 
 .view-list-cart li a{
   text-decoration: none;
-  color:#4b566b;
+  color: $mediumdark-red-color;
 }
 .prodlist-img{
   display: flex;
@@ -1142,6 +1145,13 @@ font-size: 0.8rem;
     display: none;
     // position: sticky;
     // bottom: 10px;
+  }
+  .short-button{
+    position: fixed;
+    z-index: 1;
+    background-color: $light-red-color;
+    bottom: 50px;
+    right: 3%;
   }
   .product-list-main-colum{
     width: 100%;

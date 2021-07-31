@@ -137,3 +137,10 @@ $(document).ready(function(){
     // $(".main-bodyfilter").toggle();
   })
 });
+
+
+$(document).ready(function(){
+  $(".short-icon").click(function(){
+    $(".short-section-row").toggle();
+  })
+});
