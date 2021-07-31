@@ -131,6 +131,10 @@ input[type="search"]::-webkit-search-results-decoration {
   cursor: pointer;
 }
 
+.cart-item-list {
+  margin: 0rem 0rem 0rem 1.5rem;
+}
+
 @media screen and (max-width: 965px) {
   .user-model-box {
     width: -webkit-fit-content;
